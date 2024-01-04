@@ -1,0 +1,32 @@
+*{
+    /* margin: 0; */
+}
+.blog{
+    /* background-color: aquamarine;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    border-left: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify; */
+}
+h3{
+    color: rgb(221, 48, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog{
+    border: 10px solid tomato;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+.second{
+    /* display: none;
+    visibility: hidden; */
+}
+.inline{
+    color: aqua;
+    border: 2px solid purple;
+    display: block;
+    display: inline-block;
+}
