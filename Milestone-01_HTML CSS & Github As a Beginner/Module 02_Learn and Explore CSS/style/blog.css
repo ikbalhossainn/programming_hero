@@ -1,3 +1,4 @@
+
 *{
     /* margin: 0; */
 }
@@ -10,10 +11,12 @@
     padding: 20px;
     text-align: justify; */
 }
+
 h3{
     color: rgb(221, 48, 13);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .blog{
     border: 10px solid tomato;
     margin: 30px;
@@ -21,22 +24,28 @@ h3{
     box-shadow: 10px 10px 10px blueviolet;
     padding: 10px;
 }
+
 .second{
     /* display: none;
     visibility: hidden; */
 }
+
 .inline{
-    color: aqua;
-    border: 3px solid purple;
+    color: peru;
+    border: 3px solid black;
     display: block;
     display: inline-block;
     
 }
+
 .header{
     height: 500px;
-    background-image: url(ikbal.jpg);
-    background-repeat: no-repeat;
+    background-image: url('../style/images/lighter.jpg');
+    /* or background-image: url(../style/images/lighter.jpg); */
+    /* background-repeat: no-repeat; */
     /* background-repeat: repeat-x;
     background-repeat: repeat-y; */
-    
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-size: 200px;*/
 }
