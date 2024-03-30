@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table</title>
     <style>
-        /* table {
-            border: 1px solid black;
+        table {
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+
         }
-        td{
-            border: 1px solid black;
-        } */
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
     <h2>HTML Table</h2>
-    <table border="1px solid black">
-        <caption>Employee salary Table</caption>
+    <table>
+    <!-- <table border="1px solid black"> -->
+        <caption><b>Employee salary Data</b></caption>
         <thead>
             <tr>
                 <th>No</th>
@@ -52,9 +56,9 @@
             </tr>
         </tbody>
         <tfoot>
-            <!-- <tr>
-                <td>Total Employee: 4</td>
-            </tr> -->
+            <tr>
+                <td colspan="4"> Total Employee: 4</td>
+            </tr>
         </tfoot>
     </table>
 
@@ -63,9 +67,10 @@
         <li>table head: thead</li>
         <li>table body: tbody</li>
         <li>table footer: tfoot</li>
-        <li>table heading: th</li>
+        <li>table heading/header cell: th</li>
         <li>table row: tr</li>
         <li>table data or cell: td</li>
+        <li>caption</li>
     </ul>
 </body>
 </html>
