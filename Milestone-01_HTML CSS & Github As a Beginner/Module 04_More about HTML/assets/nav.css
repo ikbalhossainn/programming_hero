@@ -1,0 +1,32 @@
+/* nav ul li{
+  display: inline;
+  list-style: none;
+} */
+
+/* or */
+
+/* nav> ul> li{
+  display: inline;
+  list-style: none;
+} */
+
+/* or */
+
+nav> ul{
+  display: flex;
+  /* list-style: none; */
+}
+nav li{
+  margin-right: 20px;
+  list-style: none;
+  padding: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+nav li:hover{
+  background-color: aqua;
+  font-weight: bold;
+}
